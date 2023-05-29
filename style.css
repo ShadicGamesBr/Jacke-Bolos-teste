@@ -1,0 +1,722 @@
+@import url("Fontes/Khamden\ Script\ Regular.ttf");
+p{
+    width: 220px;
+    height: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    font-size: 20pt;
+    background-color: rgb(32, 32, 32);
+    line-height: 40px;
+    top: 100px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar{
+    width: 25px;
+    background-color: #98b7c5;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #4b595f;
+    padding: 10px;
+    margin: 0 auto;
+}
+::-webkit-scrollbar-corner{
+    background-color: #829ba7;
+}
+#insta{
+    background-image: url(imagens/instagram.png);
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: -365px;
+    left: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#slogan{
+    position: relative;
+    top: -100px;
+    scale: 0.75;
+    margin: 0 auto;
+    background-size: 100%;
+    height: 400px;
+    width: 600px;
+    background-image: url("imagens/Slogan.png");
+    cursor: default;
+}
+h1{
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 39pt;
+}
+#app{
+    position: relative;
+    top: 150px;
+    animation-duration: 1s;
+    animation: ease-in;
+}
+.botoes{
+    position: relative;
+    top: -40px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+
+
+
+
+body{
+    user-select: none;
+    margin: 0 auto;
+    background-image: url("imagens/Background.png");
+    background-size: 100%;
+    height: auto;
+    font-family: Khamden Script Regular;
+}
+.foto{
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.452);
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    border-radius: 20%;
+    scale: 2.0;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+
+/*bolos caseiros*/
+
+
+
+#bolo_ca{
+    top: -220px;
+    position: absolute;
+    left: 480px;
+}
+
+#bolo_cenoura{
+    content: attr(data-link);
+    /*250px por espaçamento*/
+    position: absolute;
+    top: -50px;
+    left: 175px;
+    background-image: url(imagens/1.jpg);
+}
+#bolo_cenoura::before{
+    content: "Bolo de cenoura";
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+#bolo_ninho{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: -50px;
+    left: 417px;
+    background-image: url("imagens/2.jpg");
+}
+
+#bolo_ninho::before{
+    content: "Bolo de leite ninho";
+    position: absolute;
+    top: -17px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+#bolo_cenoura_chocolate{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: -50px;
+    left: 674px;
+    background-image: url("imagens/3.jpg");
+}
+
+#bolo_cenoura_chocolate::before{
+    content: "Bolo de cenoura com cobertura de chocolate";
+    position: absolute;
+    top: -35px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+
+#bolo_goiaba{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: -50px; /*215*/
+    left: 911px; /*262*/
+    background-image: url("imagens/goiaba.jpg");
+}
+
+#bolo_goiaba::before{
+    content: "Bolo de fubá com goiaba";
+    position: absolute;
+    top: -25px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+#bolo_iorgute{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: -50px;
+    left: 886px;
+    background-image: url("imagens/16.jpg");
+}
+
+#bolo_iorgute::before{
+    content: "Bolo de iorgute";
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+#bolo_iorgute{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 165px;
+    left: 175px;
+    background-image: url("imagens/16.jpg");
+}
+
+#bolo_iorgute::before{
+    content: "Bolo de iorgute";
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+#bolo_coco{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 165px;
+    left: 417px;
+    background-image: url("imagens/17.jpg");
+}
+
+#bolo_coco::before{
+    content: "Bolo de coco";
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+#bolo_fuba{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 165px;
+    left: 674px;
+    background-image: url("imagens/bolo\ de\ fuba.jpg");
+}
+
+#bolo_fuba::before{
+    content: "Bolo de fubá";
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+
+
+#bolo_fuba_erva{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 165px; /*+215*/
+    left: 911px; /*+262*/
+    background-image: url("imagens/bolo\ de\ fuba\ com\ erva\ doce.jpg");
+}
+
+#bolo_fuba_erva::before{
+    content: "Bolo de fubá com erva doce";
+    position: absolute;
+    top: -25px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+
+#bolo_cenoura_m_chocolate{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 380px; /*+215*/
+    left: 175px; /*+262*/
+    background-image: url("imagens/bolo\ de\ cenoura\ mesclado\ com\ chocolate.jpg");
+}
+
+#bolo_cenoura_m_chocolate::before{
+    content: "Bolo de fubá mesclado com chocolate";
+    position: absolute;
+    top: -20px;
+    left: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 9px;
+    text-align: center;
+}
+    
+#bolo_cafe{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 380px; /*+215*/
+    left: 417px; /*+262*/
+    background-image: url("imagens/bolo\ de\ café.jpg");
+}
+
+#bolo_cafe::before{
+    content: "Bolo de café";
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+#bolo_banana_canela{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 380px; /*+215*/
+    left: 674px; /*+262*/
+    background-image: url("imagens/bolo\ de\ banana\ com\ canela.jpg");
+}
+
+#bolo_banana_canela::before{
+    content: "Bolo de banana com canela";
+    position: absolute;
+    top: -23px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+
+
+#bolo_amendoin_ninho{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 380px; /*+215*/
+    left: 911px; /*+262*/
+    background-image: url("imagens/bolo\ de\ amendoin\ com\ ninho.jpg");
+}
+
+#bolo_amendoin_ninho::before{
+    content: "Bolo de amendoim com ninho";
+    position: absolute;
+    top: -20px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 7pt;
+    text-align: center;
+}
+
+#bolo_limao_musse{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 595px; /*+215*/
+    left: 175px; /*+262*/
+    background-image: url("imagens/bolo\ de\ limão\ com\ musse.jpg");
+}
+
+#bolo_limao_musse::before{
+    content: "Bolo de limão com musse";
+    position: absolute;
+    top: -20px;
+    left: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 7pt;
+    text-align: center;
+}
+
+
+
+#bolo_laranja_musse{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 595px; /*+215*/
+    left: 417px; /*+262*/
+    background-image: url("imagens/bolo\ de\ laranja\ com\ musse.jpg");
+}
+
+#bolo_laranja_musse::before{
+    content: "Bolo de laranja com musse";
+    position: absolute;
+    top: -20px;
+    left: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 7pt;
+    text-align: center;
+}
+
+
+
+
+
+
+/*BOLOS CONFEITADOS*/
+
+
+#bolo_co{
+    position: absolute;
+    top: 935px;
+    left: 40%;
+
+}
+
+
+
+#bolo_co1{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 1050px;
+    left: 175px;
+    background-image: url("imagens/4.jpg");
+}
+
+
+#bolo_co1::before{
+    content: "Bolo confeitado 1";
+    position: absolute;
+    top: -22px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+/*Brigadeiros*/
+
+
+
+#brig{
+    position: absolute;
+    top: 1365px;
+    left: 40%;
+}
+
+
+
+
+#brig1{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 1580px;
+    left: 175px;
+    background-image: url("imagens/5.jpg");
+
+
+}
+
+#brig1::before{
+    content: "Brigadeiro 1";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+#brig2{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 1580px;
+    left: 417px;
+    background-image: url("imagens/6.jpg");
+}
+
+
+
+#brig2::before{
+    content: "Brigadeiro 2";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+#brig3{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 1580px;
+    left: 674px;
+    background-image: url("imagens/7.jpg");
+}
+
+#brig3::before{
+    content: "Brigadeiro 3";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+#brig4{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 1580px;
+    left: 911px;
+    background-image: url("imagens/13.jpg");
+}
+
+
+
+#brig4::before{
+    content: "Brigadeiro 4";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+#brig5{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 1795px;
+    left: 175px;
+    background-image: url("imagens/14.jpg");
+}
+
+
+#brig5::before{
+    content: "Brigadeiro 5";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+#brig6{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 1795px;
+    left: 417px;
+    background-image: url("imagens/15.jpg");
+}
+
+
+#brig6::before{
+    content: "Brigadeiro 6";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+ 
+
+
+
+/*Cupcakes*/
+
+
+
+#cupc{
+    position: absolute;
+    top: 2225px;
+    left: 40%;
+
+}
+#cup1{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 2440px;
+    left: 175px;
+    background-image: url("imagens/10.jpg");
+}
+
+#cup1::before{
+    content: "Cupcake 1";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+ 
+#cup2{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 2440px;
+    left: 417px;
+    background-image: url("imagens/11.jpg");
+}
+
+
+
+#cup2::before{
+    content: "Cupcake 2";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+#cup3{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 2440px;
+    left: 674px;
+    background-image: url("imagens/12.jpg");
+    
+}
+
+
+
+#cup3::before{
+    content: "Cupcake 3";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+/*BROWNIES*/
+
+
+#brow{
+    position: absolute;
+    top: 2870px;
+    left: 40%;
+
+}
+
+#brow1{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 3085px;
+    left: 175px;
+    background-color: rgb(129, 129, 129);
+}
+
+#brow1::before{
+    content: "Brownie 1";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+
+
+
+/*OVOS DE PÁSCOA*/
+
+#ovo_pasc{
+    position: absolute;
+    top: 3515px;
+    left: 40%;
+}
+
+#ovo_pasc1{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 3730px;
+    left: 175px;
+    background-image: url(imagens/ovo\ de\ pascoa\ 1.jpg);
+}
+
+#ovo_pasc1::before{
+    content: "Ovo de páscoa 1";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+#ovo_pasc2{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 3730px;
+    left: 417px;
+    background-image: url(imagens/ovo\ de\ pascoa\ 2.jpg);
+}
+
+#ovo_pasc2::before{
+    content: "Ovo de páscoa 2";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
+
+#ovo_pasc3{
+    /*250px por espaçamento*/
+    position: absolute;
+    top: 3730px;
+    left: 674px;
+    background-image: url(imagens/ovo\ de\ pascoa\ 3.jpg);
+}
+
+#ovo_pasc3::before{
+    content: "Ovo de páscoa 3";
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    text-align: center;
+}
